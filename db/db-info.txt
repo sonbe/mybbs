@@ -1,0 +1,36 @@
++------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| id         | int(11)      | NO   | PRI | NULL    | auto_increment |
+| name       | varchar(255) | NO   |     | NULL    |                |
+| email      | varchar(255) | YES  |     | NULL    |                |
+| password   | varchar(45)  | YES  |     | NULL    |                |
+| created_at | date         | YES  |     | NULL    |                |
+| updated_at | date         | YES  |     | NULL    |                |
++------------+--------------+------+-----+---------+----------------+
+
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int(11)      | NO   | PRI | NULL    | auto_increment |
+| user_id     | int(11)      | NO   |     | NULL    |                |
+| title       | varchar(255) | YES  |     | NULL    |                |
+| description | varchar(255) | YES  |     | NULL    |                |
+| image_path  | varchar(255) | YES  |     | NULL    |                |
+| created_at  | date         | YES  |     | NULL    |                |
+| updated_at  | date         | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int(11)      | NO   | PRI | NULL    | auto_increment |
+| user_id     | int(11)      | NO   |     | NULL    |                |
+| title       | varchar(255) | YES  |     | NULL    |                |
+| description | varchar(255) | YES  |     | NULL    |                |
+| image_path  | varchar(255) | YES  |     | NULL    |                |
+| created_at  | date         | YES  |     | NULL    |                |
+| updated_at  | date         | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+
+
