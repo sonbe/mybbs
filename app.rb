@@ -13,8 +13,8 @@ set :public_folder, File.dirname(__FILE__) + '/public'
 client = Mysql2::Client.new(
     host: 'localhost',
     port: 3306,
-    username: 'root',
-    password: '18FSS#1@kab',
+    username: '',
+    password: '',
     database: 'bbs',
     reconnect: true,
 )
